@@ -8,7 +8,3 @@ services:
     build: tomcat/.
     ports : 
       - "8080:8080"
-  mariadb:
-    image : mariadb
-    environment: 
-      MYSQL_ROOT_PASSWORD : root
